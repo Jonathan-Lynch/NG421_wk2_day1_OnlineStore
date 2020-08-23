@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,64 +16,33 @@
 </head>
 
 <body>
-  <app-root></app-root>
-    
+    <app-root></app-root>
+
     <!-- /.container -->
     <div id="root">
 
         <div class="App">
             <!--<Header>-->
-                <app-header></app-header>
-        <!--</Header>-->
-        
-           <div class="container">
-       
-               <div class="row">
-       
-                   <div class="col-md-3">
-                       <p class="lead">Shop Name</p>
-                       <div class="list-group">
-                           <a href="#" class="list-group-item">Category 1</a>
-                           <a href="#" class="list-group-item">Category 2</a>
-                           <a href="#" class="list-group-item">Category 3</a>
-                       </div>
-                   </div>
-       
-                   <div class="col-md-9">
-                       <!--<Carousel>-->
-                            <app_carousel></app_carousel>
-                       <!--</Carousel>-->
-                       <div class="row">
-                           <!--<ProductDetail>-->
-                            <app-product-detail></app-product-detail>
-                           <!--</ProductDetail>-->
-         
-      
-                       </div>
-       
-                   </div>
-       
-               </div>
-       
-           </div>
-          
-           <div class="container">
-       
-               <hr/>
-       
-           
-               <footer>
-                   <div class="row">
-                       <div class="col-lg-12">
-                           <p>Copyright &copy; Your Website 2014</p>
-                       </div>
-                   </div>
-               </footer>
-              <!--</Footer>-->
-           </div>
-             </div>
-        
-       
+            <app-header></app-header>
+            <!--</Header>-->
+
+            <div class="container">
+                <!--<sidebar>-->
+                <app-sidebar></app-sidebar>
+                <!--<sidebar>-->
+            </div>
+
+            <div class="container">
+
+                <hr />
+
+                <!--<Footer>-->
+                <app-footer></app-footer>
+                <!--</Footer>-->
+            </div>
+        </div>
+
+
 
     </div>
     <!-- jQuery -->
